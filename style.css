@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #191C25;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color:white;
+    padding: 5em 0 2em;
+}
+h1{
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+}
+.body{
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.form{
+    margin-top: 5em;
+}
+.highlight{
+    background-color: rgb(66, 177, 144);
+}
+.error{
+    background-color: lightcoral;
+    border: red;
+}
+input{
+    border: none;
+    padding: .5em 1em;
+    font-size: 1rem;
+}
+input:focus{
+    outline:none;
+}
+#quote{
+    margin-top: 2em;
+    font-size: 1.5rem;
+}
+#message{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 2em;
+}
+.buttons{
+    margin-top: 1em;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    border: none;
+    padding: .5em 1em;
+    cursor: pointer;
+    border-radius: .3em;
+    background-color: rgb(50, 112, 50);
+    transition: background-color .2s ease-in;
+    color:white;
+}
+button:hover{
+    background-color:rgb(40, 92, 40);
+}
+button:focus{
+    background-color: rgb(59, 137, 59);
+}
+button:disabled{
+    cursor:auto;
+    background-color: grey;
+}
